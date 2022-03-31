@@ -1,0 +1,262 @@
+@import "./reset";
+
+// ============================================================== Main ===============================================
+
+$primary-color: #f5f5f5;
+$theme-color: #4c70b3;
+
+@mixin align-row {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+@mixin align-col {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+@mixin align-row-between {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin align-row-flexEnd {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+@mixin align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+*:not(.dx-icon, .dx-dropdowneditor-icon, .dx-link-icon, .fa, .far, .fas, .dx-datagrid-group-opened, .dx-datagrid-group-closed, .notCairo) {
+	// font-family: "Cairo";
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0 !important;
+}
+
+html,
+body {
+	// width: 100vw;
+	// height: 100vh;
+	// background-color: $primary-color ;
+	background-color: $primary-color !important ;
+	// font-family: "Cairo" !important;
+}
+
+.marginPaddingZero {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.buttonCol {
+	background-color: #ccc;
+	@include align-col;
+}
+
+.active-pagination {
+	background-color: #2d6da3 !important;
+}
+.active-pagination a {
+	color: white !important;
+}
+
+.mainComponents {
+	width: calc(100% - 250px);
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+a {
+	color: #4c70b3 !important;
+	text-decoration: none !important;
+}
+
+.navbar {
+	// box-shadow: 0 2px 8px 0 gray;
+	border-bottom: 1px solid #dee2e6 !important;
+	// margin-bottom: 10px;
+	// position: fixed !important;
+	// width: 100%;
+	// top: 0;
+	// z-index: 10;
+}
+
+.card {
+	// box-shadow: 0 3px 10px 0 gray;
+}
+
+.icon-bar {
+	z-index: 1000;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #4c70b3;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	width: 40px;
+	height: 130px;
+	cursor: pointer;
+	font-weight: 700;
+
+	-webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+	-moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+	-o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+	-ms-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+	transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.icon-bar-en {
+	left: 98%;
+	top: 50%;
+	border-radius: 7px 0px 0px 7px;
+}
+
+.icon-bar-ar {
+	right: 98%;
+	left: 0%;
+	writing-mode: vertical-rl;
+	border-radius: 0px 11px 11px 0px;
+}
+
+.icon-bar:hover {
+	width: 80px;
+	background: white;
+	border: 1px #4c70b3 solid;
+	text-decoration: none;
+}
+
+.icon-bar-ar:hover {
+	right: 97%;
+}
+
+.icon-bar-en:hover {
+	left: 97%;
+}
+
+.icon-bar:hover div {
+	padding-right: 20px;
+	color: #4c70b3;
+}
+
+.icon-bar div {
+	display: block;
+	text-align: center;
+	font-family: "cairo";
+	padding: 6px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 16px;
+}
+
+.sectionHeader {
+	font-weight: 800;
+	color: #2d6da3;
+}
+
+@media only screen and (max-width: 720px) {
+	.mainComponents {
+		width: 100vw;
+	}
+}
+
+.dx-scrollbar-vertical {
+	right: -30px !important;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #f5f5f5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #337ab7;
+	border-radius: 10px;
+}
+
+// ::-webkit-scrollbar-thumb:hover {
+//     background: #f5f5f5;
+// }
+
+// .dx-widget {
+//   font-family: "Almarai", sans-serif;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap");
+@import "./navBar";
+@import "./sideNav";
+@import "./body";
+@import "./copyRights";
+@import "./footer";
+
+@import "./clock";
+@import "./selector";
+@import "./button";
+@import "./permissionsPage";
+@import "./systemSettings";
+@import "./_my/config";
+@import "./_my/ItemsDetails";
+@import "./input";
+@import "./_my/varieties";
+@import "./notFound";
+@import "./paymentsTypes";
+@import "./systemstore";
+@import "./discount";
+@import "./form";
+@import "./buttonrow";
+@import "./dx_table";
+@import "./billHeader";
+@import "./deletedHeader";
+@import "./buttonrow";
+@import "./dx_Accordion";
+@import "./dx_scrollView";
+@import "./dx_Input";
+@import "./dx_list";
+@import "./salesBill";
+@import "./bill";
+@import "./RadioGroup";
+@import "./floatingButton";
+@import "./bootstrapAccordion";

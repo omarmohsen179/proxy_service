@@ -1,0 +1,27 @@
+.dx-datagrid-rowsview .dx-row {
+	border-bottom: 1px solid #dddddd;
+}
+
+.dx-drawer-overlap .dx-drawer-panel-content {
+	overflow: visible;
+	z-index: auto !important;
+}
+
+.dx-toast-icon {
+	margin: 0 10px !important;
+}
+
+.dx-popup-bottom.dx-toolbar {
+	padding: 20px !important;
+}
+
+html:lang(en) .dx-datagrid-edit-form-item {
+	direction: ltr !important;
+}
+
+.dx-layout-manager
+	.dx-label-h-align
+	.dx-field-item-label
+	.dx-field-item-label-content {
+	text-align: start;
+}

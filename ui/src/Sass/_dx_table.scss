@@ -1,0 +1,86 @@
+.dx-datagrid {
+}
+
+.table > :not(:first-child) {
+	border-top: inherit !important;
+}
+
+.dx-datagrid .dx-row-lines > td {
+	font-family: "Cairo" !important;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+	background-color: #f2f2f2;
+}
+
+.dx-datagrid-rowsview .dx-row:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > tr > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > td,
+.dx-datagrid-rowsview
+	.dx-selection.dx-row:not(.dx-row-focused):hover
+	> tr
+	> td {
+	background-color: var(--hover-color);
+	color: var(--section-bg-color);
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+	font-family: "cairo";
+}
+
+.dx-selection .dx-link {
+	color: white !important;
+}
+
+.dx-item .dx-item-content.dx-toolbar-item-content {
+	direction: ltr;
+	padding-inline-end: 10px;
+}
+
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row)
+	> td:not(.dx-focused) {
+	cursor: pointer;
+}
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row)
+	> td:not(.dx-focused).dx-datagrid-group-space {
+	cursor: pointer;
+}
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row)
+	> .dx-datagrid-readonly
+	.dx-texteditor
+	.dx-texteditor-input {
+	cursor: pointer;
+}
+
+.dx-group-row .dx-command-expand {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.dx-datagrid-rowsview
+	.dx-selection.dx-row:not(.dx-row-focused).dx-column-lines
+	> td,
+.dx-datagrid-rowsview
+	.dx-selection.dx-row:not(.dx-row-focused).dx-column-lines
+	> tr
+	> td,
+.dx-datagrid-rowsview
+	.dx-selection.dx-row:not(.dx-row-focused):hover.dx-column-lines
+	> td,
+.dx-datagrid-rowsview
+	.dx-selection.dx-row:not(.dx-row-focused):hover.dx-column-lines
+	> tr
+	> td {
+	// border-left-color: transparent;
+	// border-right-color: transparent;
+}
+
+////////// Lookups Table ////////////
+
+#lookupsTable :first-child.dx-editor-cell {
+	// background-color: red;
+	// border: 2px solid rgb(231, 151, 151);
+}

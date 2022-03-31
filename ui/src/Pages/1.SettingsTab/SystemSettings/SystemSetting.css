@@ -1,0 +1,14 @@
+.system-card {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.card-header-title {
+  padding: 3px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+.dx-popup-title.dx-toolbar .dx-toolbar-before {
+  padding-right: -4px;
+  padding: 0 15px !important;
+}

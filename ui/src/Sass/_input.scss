@@ -1,0 +1,60 @@
+.input-wrapper {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 120px 1fr;
+	column-gap: 5px;
+	margin: 0 0 10px 0;
+}
+
+.inputWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.inputTitleStyle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 50px;
+	min-height: 35px;
+	font-size: 0.84em;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	background-color: #e9ecef;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	font-weight: bold;
+	padding: 3px;
+	margin: 0 10px;
+}
+
+.errorContainer {
+	color: red;
+	margin-top: 5px;
+	text-align: center;
+}
+.label {
+	@include center-elemnt;
+	font-size: 13px;
+	font-weight: 500;
+	color: $black;
+	background-color: $baby-grey;
+	border-radius: 0.25rem;
+	text-align: center;
+	max-height: 35px;
+	height: 35px;
+}
+
+.border {
+	border: 1px solid $baby-grey;
+	border-radius: 0.25rem;
+	text-align: center;
+}
+
+.dx-placeholder {
+	left: auto !important;
+}

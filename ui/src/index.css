@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	font-family: "Inter" !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html:lang(ar) body {
+	font-family: "Cairo" !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.dx-overlay-content .dx-popup-title.dx-toolbar {
+	padding: 6px 20px;
+	overflow: visible;
+	box-shadow: none;
+}

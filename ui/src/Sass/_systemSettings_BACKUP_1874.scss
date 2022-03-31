@@ -1,0 +1,99 @@
+.cont {
+<<<<<<< HEAD
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+=======
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> origin/OmarEnablingButtons
+}
+
+.inputGeneralStyle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputGroupStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 0.375rem 0.75rem;
+  width: 130px;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.inputSmallGroupStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 0.375rem 0.75rem;
+  width: 100px;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.font-small {
+  font-size: 13px;
+}
+
+.w-30 {
+<<<<<<< HEAD
+	width: 35%;
+=======
+  width: 35%;
+>>>>>>> origin/OmarEnablingButtons
+}
+
+.font-xs-small {
+  font-size: 10px;
+}
+
+.fingerPrintTitleStyle {
+  width: 50%;
+  margin: auto;
+  border-radius: 4px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.checkBoxStyle {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dx-fileuploader-input-wrapper {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.dx-fileuploader-input-wrapper::before {
+  padding-top: 7.5px !important;
+  margin-top: -1em !important;
+}

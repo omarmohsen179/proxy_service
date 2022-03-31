@@ -1,0 +1,102 @@
+// ============== variables ================= //
+$grey: rgb(200, 200, 200);
+$baby-grey: rgb(231, 231, 231);
+$black: #222;
+$blue: #2d6da3;
+$error: #d43f3a;
+// ============== mixins ================= //
+
+@mixin center-elemnt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-card {
+	background-color: white;
+	// padding: 20px;
+	border-radius: 7px;
+	border: 2px solid $baby-grey;
+}
+
+.center {
+	@include center-elemnt();
+	justify-content: space-between;
+}
+.center-top {
+	@include center-elemnt();
+	justify-content: flex-start;
+}
+
+.double {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 5px;
+	// direction: rtl;
+
+	// display: flex;
+	// justify-content: center;
+	// width: 100%;
+	// justify-content: space-between;
+}
+
+.triple {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 5px;
+	// direction: rtl;
+}
+
+.four-in-row {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 25px;
+	// direction: rtl;
+}
+
+.fifth-in-row {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	column-gap: 25px;
+	// direction: rtl;
+}
+
+.item-transaction {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 5%;
+	row-gap: 10px;
+	// direction: rtl;
+}
+
+.item-sales {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 20px;
+	row-gap: 10px;
+	// direction: rtl;
+}
+
+@media only screen and (max-width: 721px) {
+	.double {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 5px;
+		// direction: rtl;
+	}
+	.triple {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 5px;
+		// direction: rtl;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.triple {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 5px;
+		// direction: rtl;
+	}
+}

@@ -1,0 +1,143 @@
+.app {
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.app .content {
+  line-height: 1.5;
+}
+
+.app .content h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app .content-block {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.screen-x-small .content-block {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.responsive-paddings {
+  padding: 20px;
+}
+
+.screen-large .responsive-paddings {
+  padding: 40px;
+}
+
+.dx-card.wide-card {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.with-footer > .dx-scrollable-wrapper >
+.dx-scrollable-container > .dx-scrollable-content {
+  height: 100%;
+}
+
+.with-footer > .dx-scrollable-wrapper >
+.dx-scrollable-container > .dx-scrollable-content > .dx-scrollview-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+html, body {
+  margin: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-component {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  z-index: 1;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.header-component .dx-toolbar
+.dx-toolbar-item.menu-button
+> .dx-toolbar-item-content
+.dx-icon {
+  color: #337ab7;
+}
+
+.lang__button {
+  font-weight: 500;
+  color: #032536;
+  cursor: pointer;
+}
+
+.lang__button:hover {
+  color: #548ca8;
+}
+
+.dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-before {
+  padding: 0 30px;
+}
+
+.screen-x-small .dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-before {
+  padding: 0 20px;
+}
+
+.dx-toolbar .dx-toolbar-item.dx-toolbar-button.menu-button {
+  width: 60px;
+  text-align: center;
+  padding: 0;
+}
+
+.header-title .dx-item-content {
+  padding: 0;
+  margin: 0;
+}
+
+.header-title {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  max-width: 250px !important;
+  font-family: "Inter";
+}
+
+.header-title:hover {
+  color: #548ca8;
+}
+
+.dx-theme-generic .dx-toolbar {
+  padding: 10px 0;
+}
+
+.dx-theme-generic .user-button > .dx-button-content {
+  padding: 3px;
+}
+/*# sourceMappingURL=header.css.map */

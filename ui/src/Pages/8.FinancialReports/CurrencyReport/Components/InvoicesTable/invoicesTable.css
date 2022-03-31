@@ -1,0 +1,15 @@
+.dx-data-row td.greenCell,
+.dx-data-row td.greenCell:hover {
+  background-color: #7bca7b !important;
+  color: yellow !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dx-data-row td.redCell,
+.dx-data-row td.redCell:hover {
+  background-color: #e76b6b !important;
+  color: yellow !important;
+  font-size: 16px;
+  font-weight: 700;
+}

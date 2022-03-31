@@ -1,0 +1,18 @@
+.invoiceName {
+	text-align: center;
+	padding: 20px;
+	font-weight: 900 !important;
+	font-size: xx-large !important;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.container-xxl {
+	padding-bottom: 20px;
+}
+
+.accordion h2 {
+	margin-top: 0 !important;
+}

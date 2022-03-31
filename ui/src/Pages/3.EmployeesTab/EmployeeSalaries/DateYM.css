@@ -1,0 +1,9 @@
+.dx-dateviewroller-day.dx-scrollable.dx-visibility-change-handler.dx-scrollable-vertical.dx-scrollable-simulated.dx-scrollable-scrollbars-hidden.dx-dateviewroller {
+  display: none;
+}
+.dx-dateviewroller-day.dx-scrollable.dx-rtl.dx-visibility-change-handler.dx-scrollable-vertical.dx-scrollable-simulated.dx-dateviewroller {
+  display: none !important;
+}
+.dx-toolbar.dx-widget.dx-rtl.dx-visibility-change-handler.dx-collection.dx-popup-bottom.dx-popup-cancel.dx-popup-done {
+  padding: 12px 17px !important;
+}

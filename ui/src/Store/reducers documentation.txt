@@ -1,0 +1,60 @@
+
+//  ------------------  Calling API  ------------------
+/*  
+    createAsyncThunk (
+        action route 'sliceName/Thunk fn name',
+        async (arguments, {dispatch, getState}) fn => {
+            1-  Get SQL statement by passing corresponding arguments to its fn
+            2-  Calling fn that responsible for get this data from API
+            3-  (API SQL statement) await fn => { return Data }
+            4-  return Data "payload"
+        }
+    )
+*/
+// ----------------------------------------------------
+
+// ------------------  Create Slices  ------------------
+/* 
+    createSlice({
+        name:'sliceName',                // this name is used in createAsyncThunk
+        initialState: {
+            entity1 = entity1Adapter.getInitialState(),
+            entity2 = entity2Adapter.getInitialState(),
+            entity3 = {
+                ...
+            }, ...
+        },
+        reducers: {
+            // sliceName/action1
+            action1(state, action){
+                ...
+            }, ...
+        }, 
+        extraReducers:{
+        [thunkfnName1.pending](state, action) {  
+                ...
+            },
+        [thunkfnName1.fulfilled](state, { payload }) {  
+                ...
+            },
+        [thunkfnName1.rejected](state, action) {  
+                ...
+            }, ...
+        }
+    })
+*/
+// ----------------------------------------------------
+
+// ----------------  Export Selectors  ----------------
+/*
+    export const selectorName = entity1Adapter.getSelectors(
+        state => {
+            let entitiy1 = state..
+            return entitiy1
+        }
+    )
+    // const {selectAll, selectEntities, selectIds, selectById} = selectorName
+    // selectAll => return [{...}, ...]
+    // selectEntities => retuen {key1:{...}, ....}
+*/
+// ----------------------------------------------------

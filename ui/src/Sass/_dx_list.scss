@@ -1,0 +1,5 @@
+.dx-list:not(.dx-list-select-decorator-enabled)
+  .dx-list-item.dx-list-item-selected {
+  background-color: #337ab7 !important;
+  color: #fff !important;
+}

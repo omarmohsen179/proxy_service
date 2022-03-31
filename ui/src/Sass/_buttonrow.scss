@@ -1,0 +1,23 @@
+.grid-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.buttonText {
+	color: white !important;
+	font-size: 18px !important;
+	font-weight: bold;
+}
+
+.buttonStyle {
+	min-width: 100px !important;
+}
+
+.buttonStyle {
+	min-width: 150px;
+}

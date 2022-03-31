@@ -1,0 +1,77 @@
+/* html:lang(ar) .dx-drawer-shrink .dx-drawer-wrapper {
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+} */
+
+.dx-widget {
+	font-family: inherit !important;
+}
+
+.dx-drawer .dx-drawer-wrapper {
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.dx-swatch-additional .dx-treeview-item {
+	padding: 10px 6px;
+}
+
+.dx-swatch-additional .dx-treeview-item .dx-treeview-item-content > .dx-icon {
+	font-size: 20px;
+}
+
+.dx-item-content.dx-treeview-item-content {
+	font-size: 14px;
+}
+
+.dx-drawer-panel-content {
+	border-inline: 1px solid #e2e2e2;
+}
+
+.dx-treeview-toggle-item-visibility {
+	display: none;
+}
+
+html:lang(en) .dx-drawer-panel-content {
+	direction: ltr;
+}
+
+html:lang(en)
+	.dx-toolbar.header-toolbar
+	.dx-toolbar-items-container
+	.dx-toolbar-before {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	padding-inline-end: 0px;
+}
+
+.dx-toolbar-after .dx-toolbar-item,
+.dx-toolbar-after .dx-toolbar-item:last-child {
+	padding: 0 0 0 20px;
+}
+
+.dx-toolbar-after .dx-toolbar-button:last-child {
+	padding: 0 20px;
+}
+
+.dx-accordion-item-body {
+	width: 100%;
+	height: 100%;
+}
+
+.side-navigation-menu
+	.menu-container
+	.dx-treeview
+	.dx-treeview-node-container
+	.dx-treeview-node:not(.dx-state-focused)
+	> .dx-treeview-item.dx-state-hover {
+	background-color: #2e7bbe1a !important;
+}
+
+.dx-dateviewroller-day.dx-scrollable.dx-visibility-change-handler.dx-scrollable-vertical.dx-scrollable-simulated.dx-dateviewroller {
+	display: none;
+}

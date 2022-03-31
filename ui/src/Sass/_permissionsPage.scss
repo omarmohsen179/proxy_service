@@ -1,0 +1,84 @@
+:root {
+	--main-bg-color: whitesmoke;
+	--section-bg-color: white;
+	--border-color: rgb(231, 228, 228);
+	--hover-color: rgb(76, 112, 179);
+	--win-color: green;
+	--lose-color: red;
+	--font-color: black;
+}
+
+.dx-datagrid-headers {
+	color: var(--hover-color);
+	// background-color: rgb(209, 209, 209);
+}
+
+.dx-datagrid
+	.dx-datagrid-rowsview
+	.dx-row-focused.dx-data-row:not(.dx-edit-row)
+	> td:not(.dx-focused) {
+	background-color: green;
+}
+
+.options-list ul {
+	padding-left: 0;
+}
+
+.permissionsOption {
+	padding: 10px 20px 10px 0;
+	text-align: start;
+	font-size: 12px;
+	font-weight: 500;
+	// font-family: "Cairo";
+	cursor: pointer;
+	border: var(--border-color) solid 1px;
+	border-radius: 0px;
+	width: 100%;
+}
+
+.permissionsOption a {
+	display: block;
+}
+
+.permissionsOption:hover,
+.permissionsOption:hover span,
+.permissionsOption:hover i,
+.report:hover,
+.report:hover span,
+.report:hover i {
+	background-color: var(--hover-color);
+	color: var(--section-bg-color);
+}
+
+.selected-nav-option,
+.selected-nav-option span,
+.selected-nav-option i {
+	background-color: var(--hover-color);
+	color: var(--section-bg-color);
+}
+
+.dx-button-mode-contained.dx-state-focused:not(.dx-button-has-icon) {
+	background-color: var(--hover-color) !important;
+	color: var(--section-bg-color) !important;
+}
+
+.dx-toolbar-item {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.formButtons .dx-button-text {
+	font-family: "cairo" !important;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+.customContainer {
+	direction: rtl;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.rtlContainer {
+	direction: rtl;
+}

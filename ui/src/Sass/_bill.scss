@@ -1,0 +1,41 @@
+.bill__wrapper {
+}
+
+.bill__wrapper .input-wrapper {
+	grid-template-columns: 65px 1fr !important;
+	margin: 0 0 15px 0;
+}
+
+.bill__wrapper .label {
+	font-size: 10px;
+	height: 30px;
+}
+
+.bill__wrapper .dx-texteditor:not(.dx-textarea),
+.bill__wrapper .dx-texteditor-input {
+	height: 30px !important;
+	min-height: 30px !important;
+}
+
+.bill__wrapper .dx-texteditor-input-container {
+	font-size: 12px !important;
+}
+
+.bill__wrapper .dx-textarea .dx-texteditor-input {
+	padding: 6px 6px 6px;
+}
+
+.dx-dropdowneditor-button-visible .dx-texteditor-input {
+	padding-right: 9px !important;
+}
+
+.checkbox__36 .input-wrapper {
+	height: 36.5px;
+}
+
+.dx-rtl
+	.dx-dropdownbutton-action.dx-buttongroup-last-item.dx-button
+	.dx-button-content {
+	padding-left: 4px;
+	padding-right: 4px;
+}

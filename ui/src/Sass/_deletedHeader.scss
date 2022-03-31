@@ -1,0 +1,49 @@
+.deletedHeaderContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.deletedHeaderTitle {
+	font-size: 1.7em;
+	order: 2;
+}
+.deletedHeaderButtonContainer {
+	order: 1;
+}
+
+.deletedHeaderButton {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.deletedHeaderButtons {
+	width: 100%;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.deletedHeaderMessage {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.deletedHeaderContainer {
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100px;
+	}
+	.deletedHeaderTitle {
+		order: 1;
+	}
+	.deletedHeaderButtonContainer {
+		order: 2;
+	}
+}

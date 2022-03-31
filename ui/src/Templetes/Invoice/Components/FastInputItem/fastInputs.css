@@ -1,0 +1,15 @@
+.itemBox:focus,
+.itemBox:hover,
+.itemBox:active {
+  z-index: 3;
+  color: #0a58ca;
+  background-color: #e9ecef;
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.itemBox {
+  direction: rtl;
+  height: 120px;
+  text-align: center;
+}

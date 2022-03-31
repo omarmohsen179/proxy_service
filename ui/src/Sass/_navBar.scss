@@ -1,0 +1,146 @@
+.navBarContainer {
+	width: calc(100% - 250px);
+}
+
+.logoTitleContainer {
+	background-color: $primary-color;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px 0 20px;
+}
+
+.logoContainer {
+	width: 30%;
+	max-width: 300px;
+	min-width: 150px;
+}
+
+.logoDiv {
+	width: 100%;
+}
+
+.title {
+	font-size: 30px;
+	color: $theme_color;
+	text-align: right;
+	width: 70%;
+	max-width: 600px;
+	min-width: 150px;
+}
+
+.NavigatorsContainer {
+	width: 22%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.navigatorLogoContainer {
+	width: 100%;
+	max-width: 50px;
+	min-width: 30px;
+}
+
+.navigatorDiv {
+	width: 100%;
+}
+
+// ===========================
+
+.selectorsNavigatorContainer {
+	background-color: $primary-color;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.selectorsContainer {
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.selectorContainerStyle {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	// max-width: 400px;
+	// min-width: 30px;
+}
+
+.labelStyle {
+	font-size: 20px;
+}
+
+.selectorStyle {
+	outline: none;
+	border: none;
+	margin: 9.5px;
+}
+
+@media only screen and (max-width: 778px) {
+	.logoTitleContainer {
+		justify-content: center;
+	}
+	.title {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.navBarContainer {
+		width: calc(100%);
+	}
+
+	.logoTitleContainer {
+		justify-content: center;
+	}
+
+	.logoDiv {
+		margin-top: 10px;
+	}
+
+	.title {
+		font-size: 20px;
+		text-align: right;
+	}
+
+	.NavigatorsContainer {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.selectorsContainer {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.selectorsNavigatorContainer {
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.selectorContainerStyle {
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+}

@@ -1,0 +1,16 @@
+.marketersregulationsTitle {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.marketersregulationsErrors {
+	margin-right: auto;
+	color: red;
+	font-size: 17px;
+	margin-top: 15px;
+}

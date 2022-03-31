@@ -1,0 +1,17 @@
+.create-account-form .policy-info {
+  margin: 10px 0;
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.create-account-form .policy-info a {
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.create-account-form .login-link {
+  color: #337ab7;
+  font-size: 16px;
+  text-align: center;
+}
+/*# sourceMappingURL=create-account-form.css.map */

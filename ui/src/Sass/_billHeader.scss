@@ -1,0 +1,40 @@
+.billHeaderContainer {
+	min-height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.billSelectorContainer {
+	width: 260px;
+	direction: rtl;
+}
+
+.billHeaderTitle {
+	font-size: 2.7em;
+	font-weight: 700;
+	// width: 260px;
+}
+
+@media only screen and (max-width: 991px) {
+	.billHeaderContainer {
+		padding: 10px 0;
+		justify-content: space-between;
+		// height: 150px;
+	}
+	.billHeaderContainer {
+		flex-direction: column;
+	}
+	.billHeaderTitle {
+		order: 1;
+		text-align: center;
+	}
+	.billSelectorContainer {
+		order: 2;
+		width: 260px;
+	}
+	.billButtonContainer {
+		order: 3;
+	}
+}

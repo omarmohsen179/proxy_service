@@ -1,0 +1,70 @@
+.rtlContainer {
+  direction: rtl !important;
+}
+
+.dx-numberbox.greenInput {
+  background-color: rgb(141, 223, 18) !important;
+}
+
+.dx-numberbox.greenInput .dx-texteditor-input {
+  color: yellow !important;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.dx-numberbox.redInput {
+  background-color: rgb(236, 62, 62) !important;
+}
+.dx-numberbox.redInput .dx-texteditor-input {
+  color: yellow !important;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.summaryNetSum {
+  font-family: "cairo";
+  font-weight: 400;
+  font-size: 14px;
+
+  color: black;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.dxAlert {
+  color: red;
+  font-weight: 700;
+}
+
+.dxAlert:hover,
+.dxAlert:focus {
+  color: white;
+  background-color: #da3633 !important;
+  border-color: #8b949e;
+  transition-duration: 0.1s;
+}
+
+.debitAlert .dx-popup-title {
+  color: red;
+}
+
+.debitAlert .dx-popup-normal {
+  border-color: #da3633 !important;
+}
+
+.alertIcon {
+}
